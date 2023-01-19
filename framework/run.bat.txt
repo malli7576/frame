@@ -1,0 +1,2 @@
+cd D:\workspace ellipse\maven-demo
+mvn clean install
