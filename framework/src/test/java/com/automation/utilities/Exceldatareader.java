@@ -11,7 +11,7 @@ public class Exceldatareader {
 	XSSFWorkbook workbook;
 
 	public Exceldatareader() throws FileNotFoundException {
-		File file = new File("D:\\workspace ellipse\\framework\\Testdata\\exceldata.xlsx\\");
+		File file = new File("C:\\Users\\subra\\git\\frame\\framework\\Testdata\\exceldata.xlsx");
 		FileInputStream fis = new FileInputStream(file);
 		try {
 			workbook = new XSSFWorkbook(fis);
